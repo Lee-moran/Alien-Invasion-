@@ -14,4 +14,29 @@ h1{
     height: 500px;
     border: 2px solid black;
     margin: auto;
+    overflow: hidden;
+}
+#tower{
+    width: 50px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    left: 400px;
+    animation: tower 1s infinite linear;
+    
+}
+
+@keyframes tower{
+    0%{left: 400px}
+    100%{left: -50px}
+}
+
+#gap {
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: tower 1s infinite linear;
 }
